@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+:root{
+  --primary-color: #F9FAFD;
+  --secondary-color: #E54B4B;
+  --tertiary-color : #161C2D;
+  }
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+/*------------------------- navbar menu--------------------- */
+nav a.nav-link {
+  font-weight: 500;
+  letter-spacing:0.0375rem;
+cursor:pointer;
+}
+
+nav ul li{
+  text-transform: uppercase;
+}
+
+.navbar-nav > li > a {
+  color: var(--primary-color) !important;
+}
+.navbar-brand {color: var(--primary-color) !important;
+}
+
+.navbar-nav > li > a.active, .navbar-nav > li > a.active:focus {
+  border: 0.1800rem solid var(--secondary-color);
+  border-radius: 100px;
+}
+.navbar-nav > li > a:hover {
+  border: 0.1800rem solid var(--secondary-color);
+  border-radius: 100px;
+}
